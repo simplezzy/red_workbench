@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-cassandra" />
         <module name="springboot-rabbitmq" />
         <module name="test-case" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-cassandra" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
       <module name="test-case" target="1.5" />
     </bytecodeTargetLevel>
