@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/test-case/springboot-cassandra/springboot-cassandra.iml" filepath="$PROJECT_DIR$/test-case/springboot-cassandra/springboot-cassandra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/test-case/springboot-mybatis/springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/test-case/springboot-rabbitmq/springboot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/test-case/springboot-redis/springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/test-case.iml" filepath="$PROJECT_DIR$/test-case/test-case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/workbench.iml" filepath="$PROJECT_DIR$/.idea/workbench.iml" />
+    </modules>
+  </component>
+</project>
