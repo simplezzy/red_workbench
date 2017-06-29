@@ -12,6 +12,7 @@
         <module>springboot-cassandra</module>
         <module>springboot-rabbitmq</module>
         <module>springboot-mybatis</module>
+        <module>springboot-shardingjdbc</module>
     </modules>
 
 

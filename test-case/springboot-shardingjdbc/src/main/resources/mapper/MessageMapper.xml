@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.redcode.workbench.springbootshardingjdbc.dao.MessageMapper" >
+
+  <resultMap id="BaseResultMap" type="com.redcode.workbench.springbootshardingjdbc.domain.Message" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="message_id" property="messageId" jdbcType="BIGINT" />
+    <result column="message_info" property="messageInfo" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+
+  <insert id="insert" parameterType="com.redcode.workbench.springbootshardingjdbc.domain.Message">
+    insert into t_message (id, message_id, message_info, 
+      create_time)
+    values (#{id,jdbcType=BIGINT}, #{messageId,jdbcType=BIGINT}, #{messageInfo,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=TIMESTAMP})
+  </insert>
+
+  <select id="findMsgByMessageId" resultMap="BaseResultMap">
+    SELECT * FROM t_message WHERE message_id = #{messageId,jdbcType=BIGINT}
+  </select>
+</mapper>
