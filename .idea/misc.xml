@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/test-case/springboot-cassandra/pom.xml" />
         <option value="$PROJECT_DIR$/test-case/springboot-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/test-case/springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/test-case/springboot-dubbos/pom.xml" />
+        <option value="$PROJECT_DIR$/test-case/springboot-dubbocli/pom.xml" />
       </list>
     </option>
   </component>

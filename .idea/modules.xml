@@ -3,9 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/test-case/springboot-cassandra/springboot-cassandra.iml" filepath="$PROJECT_DIR$/test-case/springboot-cassandra/springboot-cassandra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/springboot-cassandra/springboot-cassandra.iml" filepath="$PROJECT_DIR$/test-case/springboot-cassandra/springboot-cassandra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/springboot-dubbocli/springboot-dubbocli.iml" filepath="$PROJECT_DIR$/test-case/springboot-dubbocli/springboot-dubbocli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/springboot-dubbos/springboot-dubbos.iml" filepath="$PROJECT_DIR$/test-case/springboot-dubbos/springboot-dubbos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/test-case/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-case/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/test-case/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-case/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/test-case/springboot-rabbitmq/springboot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/test-case/springboot-rabbitmq/springboot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-case/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/test-case/springboot-redis/springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/test-case/springboot-redis/springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/springboot-shardingjdbc/springboot-shardingjdbc.iml" filepath="$PROJECT_DIR$/test-case/springboot-shardingjdbc/springboot-shardingjdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/test-case.iml" filepath="$PROJECT_DIR$/test-case/test-case.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-case/test-case.iml" filepath="$PROJECT_DIR$/test-case/test-case.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/workbench.iml" filepath="$PROJECT_DIR$/.idea/workbench.iml" />
     </modules>

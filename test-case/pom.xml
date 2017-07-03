@@ -13,6 +13,8 @@
         <module>springboot-rabbitmq</module>
         <module>springboot-mybatis</module>
         <module>springboot-shardingjdbc</module>
+        <module>springboot-dubbos</module>
+        <module>springboot-dubbocli</module>
     </modules>
 
 
