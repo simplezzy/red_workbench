@@ -7,17 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-cassandra" />
+        <module name="springboot-dubboapi" />
         <module name="springboot-dubbocli" />
         <module name="springboot-dubbos" />
         <module name="springboot-mybatis" />
         <module name="springboot-rabbitmq" />
         <module name="springboot-redis" />
         <module name="springboot-shardingjdbc" />
-        <module name="test-case" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-cassandra" target="1.8" />
+      <module name="springboot-dubboapi" target="1.5" />
       <module name="springboot-dubbocli" target="1.8" />
       <module name="springboot-dubbos" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />

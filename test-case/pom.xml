@@ -6,6 +6,7 @@
 
     <groupId>com.redcode.workbench</groupId>
     <artifactId>test-case</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
@@ -15,6 +16,7 @@
         <module>springboot-shardingjdbc</module>
         <module>springboot-dubbos</module>
         <module>springboot-dubbocli</module>
+        <module>springboot-dubboapi</module>
     </modules>
 
 

@@ -1,7 +1,8 @@
 package com.redcode.workbench.springbootdubbocli.dubbo.service;
 
-import com.redcode.workbench.springbootdubbocli.domain.City;
-import jdk.nashorn.internal.ir.annotations.Reference;
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.redcode.workbench.dubbo.api.CityService;
+import com.redcode.workbench.dubbo.vo.City;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,10 +12,15 @@ import org.springframework.stereotype.Component;
 public class CityDubboConsumerService {
 
     @Reference
-    CityService cityService;
+    private CityService cityService;
 
     public void printCity() {
         City city = cityService.findCityByName("wuhan");
         System.out.println("city:" + city.toString());
+    }
+
+    public City getCityInfo() {
+        City city = cityService.findCityByName("wuhan");
+        return city;
     }
 }

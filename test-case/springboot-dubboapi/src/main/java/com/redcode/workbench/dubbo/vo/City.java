@@ -1,12 +1,13 @@
-package com.redcode.workbench.springbootdubbocli.domain;
+package com.redcode.workbench.dubbo.vo;
 
 import java.io.Serializable;
 
 /**
- * Created by zhiyu.zhou on 2017/7/1.
+ * Created by zhiyu.zhou on 2017/7/3.
  */
 public class City implements Serializable {
-    private static final long serialVersionUID = 7637633396367528213L;
+
+    private static final long serialVersionUID = -2243949284149908947L;
 
     private Long id;
 

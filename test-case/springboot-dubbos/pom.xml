@@ -36,6 +36,12 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>com.redcode.workbench</groupId>
+			<artifactId>springboot-dubboapi</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
 		<!-- Spring Boot Dubbo 依赖 -->
 		<dependency>
 			<groupId>io.dubbo.springboot</groupId>

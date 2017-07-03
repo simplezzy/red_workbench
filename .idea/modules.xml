@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/test-case/springboot-cassandra/springboot-cassandra.iml" filepath="$PROJECT_DIR$/test-case/springboot-cassandra/springboot-cassandra.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-case/springboot-cassandra/springboot-cassandra.iml" filepath="$PROJECT_DIR$/test-case/springboot-cassandra/springboot-cassandra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-case/springboot-dubboapi/springboot-dubboapi.iml" filepath="$PROJECT_DIR$/test-case/springboot-dubboapi/springboot-dubboapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-case/springboot-dubbocli/springboot-dubbocli.iml" filepath="$PROJECT_DIR$/test-case/springboot-dubbocli/springboot-dubbocli.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-case/springboot-dubbos/springboot-dubbos.iml" filepath="$PROJECT_DIR$/test-case/springboot-dubbos/springboot-dubbos.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-case/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/test-case/springboot-mybatis/springboot-mybatis.iml" />
